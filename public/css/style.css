@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.page__main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.object-preview {
+  width: 240px;
+}
+
+.object-detailed,
+.object-preview {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+.object-detailed__images {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.object-preview__address,
+.object-preview__title,
+.object-preview__price,
+.object-detailed__address,
+.object-detailed__title,
+.object-detailed__price,
+.object-detailed__description,
+.object-detailed__seller-name {
+  min-height: 60px;
+}
+
+.images-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.images-list__item {
+  margin: 10px;
+}
